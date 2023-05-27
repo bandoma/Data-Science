@@ -1,0 +1,23 @@
+CNN(Convolutional Neural Network)
+là một mô hình học sâu,sử dụng mạng tích chập để phân loại ảnh ,một mạng nơ ron với các lớp convolutional (tích chập) và pooling (các lớp gộp)
+Confusion matrix
+Là một phương pháp đánh giá kết quả của những bài toán phân loại với việc xem xét cả những chỉ số về độ chính xác và độ bao quát của các dự đoán cho từng lớp. Một confusion matrix gồm 4 chỉ số sau đối với mỗi lớp phân loại:
+TP (True Positive): Số lượng dự đoán chính xác
+TN (True Negative): Số lương dự đoán chính xác một cách gián tiếp
+FP (False Positive - Type 1 Error): Số lượng các dự đoán sai lệch
+FN (False Negative - Type 2 Error): Số lượng các dự đoán sai lệch một cách gián tiếp
+
+KNN
+ mọi tính toán được thực hiện khi nó cần dự đoán nhãn của dữ liệu mới.
+ Lớp (nhãn) của một đối tượng dữ liệu mới có thể dự đoán từ các lớp (nhãn) của k hàng xóm gần nó nhất.
+
+Random Forest
+Mình chọn ngẫu nhiên n cây, sau đó xây dựng nhiều cây quyết định bằng thuật toán Decision Tree, tuy nhiên mỗi cây quyết định sẽ khác nhau (có yếu tố random). Sau đó kết quả dự đoán được tổng hợp từ các cây quyết định.
+
+Naive Bayes
+Naive Bayes là một thuật toán phân lớp được mô hình hoá dựa trên định lý Bayes trong xác suất thống kê:
+P(y|X) gọi là posterior probability: xác suất của mục tiêu y với điều kiện có đặc trưng X
+P(X|y) gọi là likelihood: xác suất của đặc trưng X khi đã biết mục tiêu y
+P(y) gọi là prior probability(Xác suất trước) của mục tiêu y
+P(X) gọi là prior probability(Xác suất trước) của đặc trưng X
+P(y|X)=( P(X|y) * P(y) ) / P(X)
