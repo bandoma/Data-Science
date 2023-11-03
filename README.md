@@ -1,9 +1,8 @@
 # crawldata-modeling-CNN-KNN-Randomforest-Naivebayes
-Ở Đây, em làm crawl dữ liệu từ trang web từ điển về hoa, em crawl cả thông tin lẫn image của hoa, bao gồm hơn 1500 dữ liệu thông tin và 3000 images
-Từ đó em làm nhiều mô hình để có thể đoán được độ chính xác của mỗi loài hoa
-file KHDL.py là cách để crawl web đó
-file Khoa_Học_Dữ_Liệu.ipynb là file mà em đã tiền xử lý dữ liệu( chuẩn hoá, làm sạch, giảm chiều,...) và từ đó làm được nhiều mô hình bao gồm:
-  + Về thông tin của hoa, em làm 3 mô hình bao gồm KNN, random forest, naive bayes để có thể so sánh 3 mô hình một cách dễ dàng hơn
-  + Về Images, em làm 2 mô hình là CNN và KNN để dễ dàng so sánh độ chính xác
+I crawl data from a dictionary website about flowers, I crawl both information and images of flowers, including more than 1500 information data and 3000 images.
+From there, I made many models to be able to predict the accuracy of each flower KHDL.py file is the way to crawl that website
+The file Data Science.ipynb is the file where I preprocessed the data (normalized, cleaned, reduced dimensionality,...) and from there made many models including:
+  + Regarding flower information, I made 3 models including KNN, random forest, naive bayes to be able to compare the 3 models more easily.
+  + Regarding Images, I made 2 models: CNN and KNN to easily compare accuracy
 
-Cảm ơn mọi người đã đọc!!
+Thank you everyone for reading!!
